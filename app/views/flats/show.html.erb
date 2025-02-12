@@ -1,0 +1,9 @@
+<div class="container mt-4">
+  <h1><%= @flat.name %></h1>
+  <p><strong>Address:</strong> <%= @flat.address %></p>
+  <p><strong>Description:</strong> <%= @flat.description %></p>
+  <p><strong>Price per Night:</strong> $<%= @flat.price_per_night %></p>
+  <p><strong>Guests:</strong> <%= @flat.number_of_guests %> guests</p>
+
+  <%= link_to "Back to List", flats_path, class: "btn btn-secondary mt-3" %>
+</div>

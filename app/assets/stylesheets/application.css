@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+ .flats-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flat-card {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
